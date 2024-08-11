@@ -1,4 +1,4 @@
-Simple and light weight console UI library for basic applications
+Simple and light weight generic UI library for basic applications
 
 using OLC pixel game engine
     https://github.com/OneLoneCoder/olcPixelGameEngine.git

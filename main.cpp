@@ -2,10 +2,15 @@
 #include "MainWindow.h"
 
 
+#define     SCREEN_WIDTH    960   
+#define     SCREEN_HEIGHT   540
+#define     PIXEL_WIDTH     1
+#define     PIXEL_HEIGHT    1
+
 int main()
 {
-	olcDemo_QuickGUI demo;
-	if (demo.Construct(256, 240, 4, 4))
-		demo.Start();
+	MainWindow window;
+	if (window.Construct(SCREEN_WIDTH, SCREEN_HEIGHT, PIXEL_WIDTH, PIXEL_HEIGHT))
+		window.Start();
 	return 0;
 }
